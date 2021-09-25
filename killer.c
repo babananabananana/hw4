@@ -35,7 +35,7 @@ int main(int argc, char *argv[]) {
 		break;
 	case '6':
         kill(pid, SIGINT);
-        sleep(4);
+        sleep(5);
         //mute
         kill(pid,31);
         sleep(1);
