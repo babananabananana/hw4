@@ -50,7 +50,7 @@ int main(int argc, char *argv[]) {
         kill(pid,31);
         sleep(1);
         kill(pid,  SIGQUIT);
-        sleep(4);
+        sleep(5);
         kill(pid,31);
         sleep(4);
 //        kill(pid, SIGINT);
